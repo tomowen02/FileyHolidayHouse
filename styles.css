@@ -1,9 +1,26 @@
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
 body {
-    background: rgb(58, 58, 58);
+    background: white;
     color: white;
     font-family: helvetica;
+    font-size: large;
     margin: 0;
+
     position: relative;
+    padding-bottom: 5rem;
+    min-height: 100%;
 }
 
 
@@ -94,15 +111,19 @@ a {
     color:black;
 }
 
+.dead-space {
+    background-color: red;
+}
 
 
 footer {
     color: grey;
     background: black;
     padding: 20px 10%;
-    position: absolute;
-    bottom: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     overflow-x: hidden;
+
+    position: absolute;
 }
