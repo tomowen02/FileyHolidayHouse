@@ -89,13 +89,14 @@ section {
 }
 
 .features {
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .features figure {
-    margin: auto;
-    width: 100%;
+    margin: 10px;
     text-align: center;
 }
 
@@ -122,4 +123,24 @@ footer {
     overflow-x: hidden;
 
     position: absolute;
+}
+
+@media screen and (max-width: 1070px) {
+    .features figure img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        height: 350px;
+    }
+
+    .features figure img {
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+    }
 }
