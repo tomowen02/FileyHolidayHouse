@@ -3,13 +3,19 @@
     <head>
         <title>My Webpage</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="topBar.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header>
             <nav>
-                <h1>Filey Holiday House</h1>
-                <ul>
+                <div class="title">
+                    <h1>Filey Holiday House</h1>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        ☰
+                    </a>
+                </div>
+                <ul class="nav-list" id="main-nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="availability.html">Availability</a></li>
                     <li><a href="features.html">Features</a></li>
