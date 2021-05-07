@@ -26,7 +26,7 @@ body {
 
 
 header {
-    background-image: linear-gradient(to bottom, rgba(250, 250, 250, 0), rgba(40, 40, 40, 0.5)), url("images/filey/Spash.jpg");
+    background-image: linear-gradient(to bottom, rgba(250, 250, 250, 0), rgba(40, 40, 40, 0.8)), url("images/filey/Spash.jpg");
     background-size: cover;
     background-position: center;
     background-color: black;
