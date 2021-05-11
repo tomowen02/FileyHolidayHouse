@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
     box-sizing: border-box;
@@ -48,33 +47,39 @@ nav {
     margin: 0 10%;
 }
 
+nav .title {
+    align-items: center;
+}
 nav h1 {
     font-size: 36px;
     margin: 0;
 }
-
-nav .title a {
+nav .title .hamburger-icon {
+    margin-left: 15px;
     display: none;
 }
-
+nav .title .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: white;
+}
 nav ul {
     margin: 0;
     margin-top: 10px;
     padding: 0;
     list-style-type: none;
 }
-
 nav li {
     display: inline-block;
     margin-right: 20px;
     border-radius: 3px;
     padding: 5px;
 }
-
 header li:last-child {
     margin-right: 0;
 }
-
 nav li:hover {
     background-color: rgba(211, 211, 211, 0.25);
 }
@@ -149,9 +154,9 @@ footer {
         font-size: 36px;
     }
 
-    nav .title a {
-        display: flex;
-        padding-left: 10px
+    nav .title .hamburger-icon {
+        display: block;
+        cursor: pointer;
     }
 
     nav .nav-list {
